@@ -40,11 +40,11 @@ namespace CargoBazaar
             {
                 app.UseDeveloperExceptionPage();
             }
-                
+
             app.UseSwagger();
 
-            app.UseSwaggerUI(config => 
-                config.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name:"CargoBazaar v1"));
+            app.UseSwaggerUI(config =>
+                config.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "CargoBazaar v1"));
 
             app.UseHttpsRedirection();
             app.UseRouting();
