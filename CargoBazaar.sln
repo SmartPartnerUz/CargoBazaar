@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33617.297
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CargoBazaar", "CargoBazaar\CargoBazaar.csproj", "{01E35DF2-D092-42B4-8F52-FA1F8DE973AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoBazaar.Infrastructure.Build", "CargoBazaar.Infrastructure.Build\CargoBazaar.Infrastructure.Build.csproj", "{95C5B083-C352-41E1-B560-67BA2B2179A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CargoBazaar.Infrastructure.Build", "CargoBazaar.Infrastructure.Build\CargoBazaar.Infrastructure.Build.csproj", "{95C5B083-C352-41E1-B560-67BA2B2179A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoBazaar.Unit.Test.Project", "CargoBazaar.Unit.Test.Project\CargoBazaar.Unit.Test.Project.csproj", "{D4AE8226-A8C8-4605-9641-8C01B600F7FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{95C5B083-C352-41E1-B560-67BA2B2179A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95C5B083-C352-41E1-B560-67BA2B2179A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95C5B083-C352-41E1-B560-67BA2B2179A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AE8226-A8C8-4605-9641-8C01B600F7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AE8226-A8C8-4605-9641-8C01B600F7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AE8226-A8C8-4605-9641-8C01B600F7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AE8226-A8C8-4605-9641-8C01B600F7FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
